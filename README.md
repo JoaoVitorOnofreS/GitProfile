@@ -1,3 +1,5 @@
 # GIT HUB PROFILE
 
-Hi, there! This is my test from Shaw and Patters where i create this project, its very simple project. So,you can search a profifle name in the seach bar and all informations are get and show
+Hello everyone!, this is my test project, I made a system using the github api where the user searches for his github name and it brings some information such as photo, bio, name, number of followers... and the repositories, when you click on repositories, it will open a screen with all the repositories detailed with name and description!
+
+Hope you like it!
