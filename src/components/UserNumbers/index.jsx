@@ -1,5 +1,3 @@
-import react from "react";
-import { Route } from "react-router-dom";
 import { useHistory } from "react-router-dom";
 
 import { Container, NumberContainer } from "./styles";

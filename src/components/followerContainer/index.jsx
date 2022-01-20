@@ -1,5 +1,3 @@
-import { FollowerPicture } from "../followerPic/style";
-import { ProfilePicture } from "../userPic/styles";
 import { Section, Title, ListOfFollowers, Follower } from "./styles";
 
 const FollowersContainer = (props) => {
@@ -11,7 +9,7 @@ const FollowersContainer = (props) => {
                 {(props?.followers).map((follower) => (
                     <Follower>
                         <h2>{follower?.login}</h2>
-                        <img src={follower?.avatar_url}></img>
+                        <img src={follower?.avatar_url} alt=""></img>
                     </Follower>
                 ))}
             </ListOfFollowers>

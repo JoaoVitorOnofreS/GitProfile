@@ -1,9 +1,8 @@
-import { Container, Url, Id, DataCreate } from "./styled";
-import DateObject from "react-date-object";
+import { Container, Id } from "./styled";
+
 const UserAccount = (props) => {
     return (
         <Container>
-            <Url>{props.html_url}</Url>
             <Id> {props.id}</Id>
         </Container>
     );

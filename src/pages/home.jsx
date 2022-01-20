@@ -4,12 +4,11 @@ import UserContainer from "../components/userContainer";
 import UserPicture from "../components/userPic";
 import UserDetails from "../components/userDetails";
 import UserNamber from "../components/UserNumbers";
-import react, { useContext } from "react";
+import { useContext } from "react";
 
 import { context } from "../context";
 import React from "react";
 import UserAccount from "../components/userAccount";
-import Date from "../components/userAccount";
 
 export default function Home() {
     const ctx = useContext(context);

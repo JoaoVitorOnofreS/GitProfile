@@ -38,7 +38,7 @@ export const Follower = styled.h2`
     padding: 10px;
     margin-bottom: 10px;
     h2 {
-        font-size: 15px;
+        font-size: 20px;
         width: 100%;
         overflow: hidden;
         color: white;
@@ -55,8 +55,8 @@ export const Follower = styled.h2`
         color: white;
     }
     img {
-        width: 50px;
-        height: 50px;
+        width: 40px;
+        height: 40px;
         border-radius: 100%;
         border: 1px solid #fff;
     }
